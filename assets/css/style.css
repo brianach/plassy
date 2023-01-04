@@ -1,11 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Lora&display=swap');
 
 body {
-    font-family: 'IM Fell Double Pica SC', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 /* headings and logo */
 
-h2,h6 {
+h1,h2,h6 {
+    font-family: 'Lora', sans-serif;
+}
 
+#logo {
+    padding-left: 1em;
+    float: left;
+    font-size: 300%;
+    letter-spacing: 5px;
+    color: #252525;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero-image & cover-text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../img/resting.webp") no-repeat center center;
+    background-size: cover;
+    
+    /*animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+/* create the level of zoom for the hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: Lora, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 100px;
+    padding-left: 10px;
+
+    background-color: rgba(202, 110, 24, 0.863);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
