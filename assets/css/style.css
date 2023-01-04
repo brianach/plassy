@@ -109,13 +109,11 @@ h1,h2 {
 }
 
 #left-intro {
-    padding-top: 30px;
     width: 33%;
     float: left;
 }
 
 #right-intro {
-    padding-top: 30px;
     width: 33%;
     float: right;
 }
@@ -136,7 +134,7 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 
 .right-intro-head {
@@ -144,7 +142,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 
 .right-intro-head h2 {
@@ -157,7 +155,7 @@ hr {
 
 #introduction {
     text-align: center;
-    margin: 20px;
+    margin: 5%;
     font-size: 300%;
     letter-spacing: 5px;
 }
