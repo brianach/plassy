@@ -35,8 +35,9 @@ I wanted to incorporate the idea of a historical timeline using skewed and stagg
   #### Phone Layout
   ![plassy_index_page_phone](https://user-images.githubusercontent.com/119498357/210420122-93fca391-939e-47d2-b744-844a99913c3b.png)
 
+## Fonts
 
-
+I chose IM Fell for the Title and Menu and Lora for the body. I chose IM Feel as I wanted something with an antique flavour to it and Lora as it was a good comlimentary font.
 
 # Features
 
