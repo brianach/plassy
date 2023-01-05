@@ -19,7 +19,7 @@ h1,h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 30px;
 }
 
 #menu {
@@ -106,6 +106,7 @@ h1,h2 {
 /* Introduction section */
 #intro {
     height: 600px;
+    padding-bottom: 5%;
 }
 
 #left-intro {
@@ -177,3 +178,54 @@ hr {
     height: 100%;
 }
 
+/* Timeline */
+
+#timelines {
+    background-image: url('../img/plassy.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    overflow: hidden;
+}
+
+#timelines div {
+    color: #fafafa;
+    background-color: rgba(80, 34, 8, 0.644);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 60px 0 0 10px;
+    text-align: center;
+
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#timelines h2 {
+    text-underline-offset: 15%;
+    font-size: 200%;
+    text-decoration: underline;
+    color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
