@@ -34,6 +34,19 @@ I wanted to incorporate the idea of a historical timeline using skewed and stagg
 
   #### Phone Layout
   ![plassy_index_page_phone](https://user-images.githubusercontent.com/119498357/210420122-93fca391-939e-47d2-b744-844a99913c3b.png)
+  
+## History Page
+
+  #### Standard Web Browser Layout
+  ![image](https://user-images.githubusercontent.com/119498357/210827874-7d28bfc1-faf4-4390-bc9f-d0344a537187.png)
+  
+  #### Tabled Browser Layout
+  ![image](https://user-images.githubusercontent.com/119498357/210828195-75769ffa-847c-4838-acf2-52b07431d967.png)
+  
+  #### Phone Layout
+  ![image](https://user-images.githubusercontent.com/119498357/210828831-2b223345-4dd7-40a2-a88e-5195e8c73cf8.png)
+
+
 
 ## Fonts
 
