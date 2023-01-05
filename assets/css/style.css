@@ -180,7 +180,7 @@ hr {
 
 /* Timeline */
 
-#timelines {
+#timeline-home {
     background-image: url('../img/plassy.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,7 @@ hr {
     overflow: hidden;
 }
 
-#timelines div {
+#timeline-home div {
     color: #fafafa;
     background-color: rgba(80, 34, 8, 0.644);
     width: 25%;
@@ -202,13 +202,41 @@ hr {
     box-sizing: border-box;
 }
 
-#timelines h2 {
+#timeline-home h2 {
     text-underline-offset: 15%;
     font-size: 200%;
     text-decoration: underline;
     color: #fafafa;
 }
 
+#timeline-hist {
+    background-image: url('../img/plassy.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 75%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#timeline-hist div {
+    color: #fafafa;
+    background-color: rgba(80, 34, 8, 0.644);
+    width: 25%;
+    height: 100px;
+    float: left;
+    padding: 10px 0 0 10px;
+    text-align: center;
+
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#timeline-hist h2 {
+    text-underline-offset: 15%;
+    font-size: 200%;
+    text-decoration: underline;
+    color: #fafafa;
+}
 /* footer */
 
 footer {
