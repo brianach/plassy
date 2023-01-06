@@ -254,7 +254,15 @@ hr {
 
 #yard-photo {
     float: right;
-    height: 50%;
+}
+
+div.img-txt {
+    padding: 15px;
+    text-align: center;
+}
+
+#img-orig {
+    align-items: center;
 }
 
 /* footer */
@@ -276,4 +284,16 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Images */
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
