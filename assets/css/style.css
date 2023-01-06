@@ -1,299 +1,316 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Lora&display=swap');
 
 body {
-    font-family: 'Lora', sans-serif;
+font-family: 'Lora', sans-serif;
 }
 
 /* headings and logo */
 
-h1,h2 {
-    font-family:  'IM Fell Double Pica SC', sans-serif;
+h1 {
+font-family:  'IM Fell Double Pica SC', sans-serif;
 }
 
 #logo {
-    padding-left: 1em;
-    float: left;
-    font-size: 300%;
-    letter-spacing: 5px;
-    color: #3a3a3a;
+padding-left: 1em;
+float: left;
+font-size: 300%;
+letter-spacing: 5px;
+color: #3a3a3a;
 }
 
 #menu, #logo {
-    line-height: 30px;
+line-height: 30px;
 }
 
 #menu {
-    font-size: 150%;
-    letter-spacing: 5px;
+font-size: 150%;
+letter-spacing: 5px;
 }
 
 #menu ul {
-    float: right;
+float: right;
 }
 
 #menu li {
-    float: left;
-    list-style-type: none;
-    padding-right: 1em;
+float: left;
+list-style-type: none;
+padding-right: 1em;
 }
 
 #menu a {
-    text-decoration: none;
-    color: inherit;
+text-decoration: none;
+color: inherit;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+border-bottom: 1px solid #3a3a3a;
 }
 
 /* hero-image & cover-text */
 
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+height: 600px;
+width: 100%;
+overflow: hidden;
+position: relative;
 }
 
 #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url("../img/resting.webp") no-repeat center center;
-    background-size: cover;
-    
-    /*animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: backwards;
+height: 600px;
+width: 100%;
+background: url("../img/resting.webp") no-repeat center center;
+background-size: cover;
+
+/*animates zoom effect on loading page */
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: backwards;
 }
 
 /* create the level of zoom for the hero image */
 @keyframes hero-zoom {
-    from{
-        transform: scale(1.1);
-    }
-    to {
-        transform: scale(1);
-    }
+from{
+    transform: scale(1.1);
+}
+to {
+    transform: scale(1);
+}
 }
 
 #cover-text {
 
-    font-size: 120%;
-    color: rgb(211, 209, 223);
-    font-family: 'IM Fell Double Pica SC', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+font-size: 120%;
+color: rgb(211, 209, 223);
+font-family: 'IM Fell Double Pica SC', sans-serif;
+text-transform: uppercase;
+letter-spacing: 4px;
 
-    width: 400px;
-    height: 180px;
+width: 400px;
+height: 180px;
 
-    padding-top: 50px;
-    padding-left: 10px;
+padding-top: 50px;
+padding-left: 10px;
 
-    background-color: rgba(202, 89, 24, 0.644);
+background-color: rgba(202, 89, 24, 0.644);
 
-    bottom: 30px;
-    right: 150px;
+bottom: 30px;
+right: 150px;
 
-    position: absolute;
+position: absolute;
 }
 
 /* Introduction section */
 
 #intro {
-    height: 600px;
-    padding-bottom: 5%;
+height: 600px;
+padding-bottom: 5%;
 }
 
 #left-intro {
-    width: 33%;
-    float: left;
+width: 33%;
+float: left;
 }
 
 #right-intro {
-    width: 33%;
-    float: right;
+width: 33%;
+float: right;
 }
 
 #center-intro {
-    width: 33%;
-    margin: 0 auto;
+width: 33%;
+margin: 0 auto;
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
-    width:  100%;
-    margin: 5px;
+border-top: 1px solid #3a3a3a;
+width:  100%;
+margin: 5px;
 }
 
 .left-intro-head {
-    width: 80%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 5%;
+width: 80%;
+float: right;
+line-height: 20px;
+clear: both;
+margin-bottom: 5%;
 }
 
 .right-intro-head {
-    width: 80%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 5%;
+width: 80%;
+float: left;
+line-height: 20px;
+clear: both;
+margin-bottom: 5%;
 }
 
 .right-intro-head h2 {
-    text-align: right;
+text-align: right;
 }
 
 .right-intro-head p {
-    text-align: right;
+text-align: right;
 }
 
 #introduction {
-    text-align: center;
-    margin: 5%;
-    font-size: 300%;
-    letter-spacing: 5px;
+text-align: center;
+margin: 5%;
+font-size: 300%;
+letter-spacing: 5px;
 }
 
 #circle-container {
-    width: 25em;
-    height: 25em;
-    padding: 1;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+width: 25em;
+height: 25em;
+padding: 1;
+border-style: solid;
+border-color: #ccc;
+border-width: 1px;
+border-radius: 50%;
+margin: 0 auto;
 }
 
 #circle-cover-bg {
-    background: url("../img/porthole.webp") no-repeat center center;
-    background-size: cover;
-    height: 100%;
+background: url("../img/porthole.webp") no-repeat center center;
+background-size: cover;
+height: 100%;
 }
 
 /* Timeline */
 
 #timeline-home {
-    background-image: url('../img/plassy.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    overflow: hidden;
+background-image: url('../img/plassy.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+width: 100%;
+overflow: hidden;
 }
 
 #timeline-home div {
-    color: #fafafa;
-    background-color: rgba(80, 34, 8, 0.644);
-    width: 25%;
-    height: 300px;
-    float: left;
-    padding: 60px 0 0 10px;
-    text-align: center;
+color: #fafafa;
+background-color: rgba(80, 34, 8, 0.644);
+width: 25%;
+height: 300px;
+float: left;
+padding: 60px 0 0 10px;
+text-align: center;
 
-    border: 2px solid white;
-    box-sizing: border-box;
+border: 2px solid white;
+box-sizing: border-box;
 }
 
 #timeline-home h2 {
-    text-underline-offset: 15%;
-    font-size: 200%;
-    text-decoration: underline;
-    color: #fafafa;
+text-underline-offset: 15%;
+font-size: 200%;
+text-decoration: underline;
+color: #fafafa;
 }
 
 /* history introduction page */
 
 #timeline-hist {
-    background-image: url('../img/plassy.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    overflow: hidden;
+background-image: url('../img/plassy.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+width: 100%;
+overflow: hidden;
 }
 
 #timeline-hist div {
-    color: #fafafa;
-    background-color: rgba(80, 34, 8, 0.644);
-    width: 25%;
-    height: 100px;
-    float: left;
-    padding: 10px 0 0 10px;
-    text-align: center;
+color: #fafafa;
+background-color: rgba(80, 34, 8, 0.644);
+width: 25%;
+height: 100px;
+float: left;
+padding: 10px 0 0 10px;
+text-align: center;
 
-    border: 2px solid white;
-    box-sizing: border-box;
+border: 2px solid white;
+box-sizing: border-box;
 }
 
 #timeline-hist h2 {
-    text-underline-offset: 15%;
-    font-size: 200%;
-    text-decoration: underline;
-    color: #fafafa;
+text-underline-offset: 15%;
+font-size: 200%;
+text-decoration: underline;
+color: #fafafa;
+}
+
+#origin-title {
+    letter-spacing: 3px;
+    padding: 1%;
+}
+
+#origin-intro {
+    letter-spacing: 2px;
+    padding: 1%;
+}
+
+#builder {
+min-height: 500px;
+
 }
 
 #specs {
-    width: 40%%;
-    overflow: hidden;
-    float: left;
+
+width: 50%;
+overflow: hidden;
+float: left;
 }
 
 #specs th, td {
-    text-align: left;
-    padding: 3%;
+text-align: left;
+padding: 2%;
+width: 150px;
 }
 
-#yard-photo {
-    float: right;
+#poster {
+float: right;
 }
 
 div.img-txt {
-    padding: 15px;
-    text-align: center;
+padding: 15px;
+text-align: center;
 }
 
 #img-orig {
-    align-items: center;
+align-items: center;
 }
 
 /* footer */
 
 footer {
-    height: 150px;
+height: 150px;
 }
 
 .social-networks {
-    text-align: center;
+text-align: center;
 }
 
 .social-networks > li {
-    display: inline;
+display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+font-size: 160%;
+margin: 1%;
+padding: 5%;
+color: #3a3a3a;
 }
 
 /* Images */
 #photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
+clear: both;
+line-height: 0;
+column-count: 2;
+column-gap: 0;
 }
 
 #photos > img {
-    width: 100%;
+width: 100%;
 }
