@@ -104,6 +104,7 @@ h1,h2 {
 }
 
 /* Introduction section */
+
 #intro {
     height: 600px;
     padding-bottom: 5%;
@@ -209,11 +210,13 @@ hr {
     color: #fafafa;
 }
 
+/* history introduction page */
+
 #timeline-hist {
     background-image: url('../img/plassy.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 75%;
+    background-position: bottom;
     width: 100%;
     overflow: hidden;
 }
@@ -237,6 +240,23 @@ hr {
     text-decoration: underline;
     color: #fafafa;
 }
+
+#specs {
+    width: 40%%;
+    overflow: hidden;
+    float: left;
+}
+
+#specs th, td {
+    text-align: left;
+    padding: 3%;
+}
+
+#yard-photo {
+    float: right;
+    height: 50%;
+}
+
 /* footer */
 
 footer {
