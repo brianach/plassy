@@ -260,7 +260,7 @@ hr {
 }
 
 #specs {
-  padding-top: 100px;
+  padding-top: 10%;
   width: 50%;
   float: left;
 }
@@ -271,10 +271,6 @@ hr {
   line-height: 20px;
   clear: both;
   margin-bottom: 5%;
-}
-
-#table {
-  padding-top: 10%;;
 }
 
 #table th,
@@ -290,11 +286,15 @@ td {
 }
 
 .advert-info {
-  width: 80%;
+  width: 90%;
   float: left;
   line-height: 20px;
   clear: both;
   margin-bottom: 5%;
+}
+
+.advert-info img{
+  width: inherit;
 }
 
 div.img-txt {
@@ -303,13 +303,12 @@ div.img-txt {
 }
 
 #img-orig {
-  height: 900px;
+  height: fit-content;
   clear: both;
   line-height: 0;
   column-count: 2;
   column-gap: 0;
 }
-
 
 /* footer */
 
@@ -400,6 +399,16 @@ footer {
       height: 150px;
       padding: 0;
   }
+  
+#specs {
+  padding-top: 5%;
+  width: 50%;
+  float: left;
+}
+
+#builder {
+  height: 700px;
+}
 }
   
 /* For medium screens size from 950px wide and down */
@@ -446,7 +455,17 @@ footer {
   #photos {
       column-count: 3;
   }
+
+  #advert {
+    padding-top: 30px;
+  }
+
+  #builder {
+    height: 700px;
+  }
 }
+
+/* For medium screens size from 800px wide and down */
 
 @media screen and (max-width: 800px) {
 
@@ -455,7 +474,48 @@ footer {
   height: 250px;
 }
 
-  #photos {
+#table table {
+  width: 500px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#specs, #advert {
+  width: 100%;
+}
+
+#builder {
+  height: 600px;
+}
+
+#specs {
+  padding-top: 0;
+}
+
+.specs-info {
+  width: 100%;
+}
+
+#img-orig {
+  column-count: 1;
+}
+
+#photos {
       column-count: 2;
   }
+}
+
+/* For medium screens size from 500px wide and down */
+
+
+#table table {
+  width: 100%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advert-info {
+  width: 100%;
 }
