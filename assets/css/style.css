@@ -201,7 +201,7 @@ hr {
   color: #fafafa;
 }
 
-/* history introduction page */
+/* history pages */
 
 .timeline a {
   text-decoration: none;
@@ -304,6 +304,12 @@ div.img-txt {
   line-height: 0;
   column-count: 2;
   column-gap: 0;
+}
+
+/* history 1951 page */
+
+#chart img {
+  width: 100%;
 }
 
 /* footer */
