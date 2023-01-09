@@ -132,7 +132,6 @@ hr {
 }
 
 .left-intro-head {
-  /*width: 80%;*/
   float: right;
   line-height: 20px;
   clear: both;
@@ -140,21 +139,12 @@ hr {
 }
 
 .right-intro-head {
-  /*width: 80%;*/
   float: left;
   line-height: 20px;
   clear: both;
   margin-bottom: 5%;
   text-align: right;
 }
-
-/*.right-intro-head h2 {
-  text-align: right;
-}
-
-.right-intro-head p {
-  text-align: right;
-}*/
 
 #introduction {
   text-align: center;
@@ -213,6 +203,10 @@ hr {
 
 /* history introduction page */
 
+.timeline a {
+  text-decoration: none;
+}
+
 #timeline-hist {
   background-image: url("../img/plassy.webp");
   background-repeat: no-repeat;
@@ -236,7 +230,9 @@ hr {
 }
 
 #timeline-hist h2 {
+  font-family: 'IM Fell Double Pica SC';
   text-underline-offset: 15%;
+  letter-spacing: 3px;
   font-size: 200%;
   text-decoration: underline;
   color: #fafafa;
