@@ -156,7 +156,7 @@ hr {
 #circle-container {
   width: 400px;
   height: 400px;
-  padding: 1;
+  padding: 1px;
   border-style: solid;
   border-color: #ccc;
   border-width: 1px;
@@ -207,6 +207,10 @@ hr {
   text-decoration: none;
 }
 
+.timeline:hover {
+  opacity: 0.5;
+}
+
 #timeline-hist {
   background-image: url("../img/plassy.webp");
   background-repeat: no-repeat;
@@ -217,14 +221,12 @@ hr {
 }
 
 #timeline-hist div {
-  color: #fafafa;
   background-color: rgba(80, 34, 8, 0.644);
   width: 25%;
   height: 100px;
   float: left;
-  padding: 10px 0 0 10px;
+  /*padding: 10px 0 0 10px;*/
   text-align: center;
-
   border: 2px solid white;
   box-sizing: border-box;
 }
@@ -342,7 +344,7 @@ div.img-txt {
 #finnis-container {
   width: 400px;
   height: 400px;
-  padding: 1;
+  padding: 1px;
   border-style: solid;
   border-color: #ccc;
   border-width: 1px;
