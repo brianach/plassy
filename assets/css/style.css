@@ -314,10 +314,52 @@ div.img-txt {
 
 /* history 1960 page */
 
+
+#rescue-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#rescue-image {
+  height: 600px;
+  width: 100%;
+  background: url("../img/rescue-color.webp") no-repeat center center;
+  background-size: cover;
+
+  /*animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+}
+
+
 #origin-intro img {
   width: 100%
 }
 
+#finnis-container {
+  width: 400px;
+  height: 400px;
+  padding: 1;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#circle-finnis {
+  background: url("../img/finnis-buoy.webp") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+#coda div {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* footer */
 
 footer {
