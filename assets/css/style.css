@@ -203,6 +203,25 @@ hr {
 
 /* history pages */
 
+#plans-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#plans-image {
+  height: 600px;
+  width: 100%;
+  background: url("../img/trawler_class_section.webp") no-repeat top center;
+  background-size: cover;
+
+  /*animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+}
+
 .timeline a {
   text-decoration: none;
 }
@@ -308,7 +327,70 @@ div.img-txt {
   column-gap: 0;
 }
 
+/* history 1940 page */
+
+#juliet-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#juliet-image {
+  height: 600px;
+  width: 100%;
+  background: url("../img/juliet.webp") no-repeat center center;
+  background-size: cover;
+
+  /*animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+}
+
+
+/* history 1947 page */
+
+#peterjon-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#peterjon-image {
+  height: 600px;
+  width: 100%;
+  background: url("../img/peterjon.webp") no-repeat center center;
+  background-size: cover;
+
+  /*animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+}
+
+
 /* history 1951 page */
+
+#plassy-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#plassy-image {
+  height: 600px;
+  width: 100%;
+  background: url("../img/plassy.webp") no-repeat center center;
+  background-size: cover;
+
+  /*animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+}
 
 #chart img {
   width: 100%;
