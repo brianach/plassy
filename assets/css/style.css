@@ -383,7 +383,7 @@ div.img-txt {
 #plassy-image {
   height: 600px;
   width: 100%;
-  background: url("../img/plassy.webp") no-repeat center center;
+  background: url("../img/plassy-air.webp") no-repeat center center;
   background-size: cover;
 
   /*animates zoom effect on loading page */
@@ -478,6 +478,75 @@ footer {
 }
 
 
+/* Feedback Section */
+
+.feedback-section {
+  clear: left;
+  background: url("../img/plassy-red-sky.webp");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.feedback-form {
+  margin: 150px 10% 0 0;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  right: 0%; /*place input section to right for better placement relative to photo */
+  padding: 30px;
+}
+
+.feedback-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 98%; /* modified to ensure launch button remained inline */
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #963c13;
+}
+
+/* place button on the bottom right */
+.feedback-form div { 
+  right:5%;
+  bottom: 5%;
+  position: absolute;
+}
+
+.launch-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #963c13;
+  color: #fafafa;
+  display: block;
+  margin-left: auto;
+}
+
+.launch-button:hover {
+  background-color: #fafafa;
+  color: #963c13;
+}
+
+#freetype {
+  margin-top: 5px;
+  height: 50px;
+  width: 98%;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -547,7 +616,7 @@ footer {
   
 /* For medium screens size from 950px wide and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
 
   #menu {
   clear: left;
@@ -601,7 +670,7 @@ footer {
 
 /* For medium screens size from 800px wide and down */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 780px) {
 
 #circle-container {
   width: 250px;
@@ -642,6 +711,7 @@ footer {
 
 /* For medium screens size from 500px wide and down */
 
+@media screen and (max-width: 480) {
 
 #table table {
   width: 100%;
@@ -652,4 +722,9 @@ footer {
 
 .advert-info {
   width: 100%;
+}
+
+.feedback-form {
+  left: 10%;
+}
 }
