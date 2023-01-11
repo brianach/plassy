@@ -230,7 +230,7 @@ hr {
   opacity: 0.5;
 }
 
-#timeline-hist {
+.timeline-hist {
   background-image: url("../img/plassy.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,18 +239,17 @@ hr {
   overflow: hidden;
 }
 
-#timeline-hist div {
+.timeline-hist div {
   background-color: rgba(80, 34, 8, 0.644);
   width: 25%;
   height: 100px;
   float: left;
-  /*padding: 10px 0 0 10px;*/
   text-align: center;
   border: 2px solid white;
   box-sizing: border-box;
 }
 
-#timeline-hist h2 {
+.timeline-hist h2 {
   font-family: 'IM Fell Double Pica SC';
   text-underline-offset: 15%;
   letter-spacing: 3px;
@@ -314,18 +313,26 @@ td {
   width: inherit;
 }
 
-div.img-txt {
-  padding: 15px;
-  text-align: left;
-}
+/*  two colum container for archive images */
 
-#img-orig {
+#image-container {
   height: fit-content;
   clear: both;
-  line-height: 0;
   column-count: 2;
   column-gap: 0;
 }
+
+div.img-dims {
+  width: 100%;
+  height: 100%;
+}
+
+div.img-txt {
+  padding: 15px;
+  text-align: left;
+  line-height: 0;
+}
+
 
 /* history 1940 page */
 
@@ -368,6 +375,10 @@ div.img-txt {
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: backwards;
+}
+
+#image-heading-1947 div{
+  width: 100%;
 }
 
 
@@ -418,7 +429,6 @@ div.img-txt {
   animation-fill-mode: backwards;
 }
 
-
 #origin-intro img {
   width: 100%
 }
@@ -434,6 +444,10 @@ div.img-txt {
   margin: 0 auto;
 }
 
+.image-heading h2 {
+  text-align: center;
+}
+
 #circle-finnis {
   background: url("../img/finnis-buoy.webp") no-repeat center center;
   background-size: cover;
@@ -443,6 +457,29 @@ div.img-txt {
 #coda div {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* you tube video */
+/* code taken from https://techstacker.com/how-to-responsive-youtube-videos/ */
+
+.video-clip {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video-clip::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.video-clip iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 /* footer */
 
@@ -709,9 +746,9 @@ footer {
   }
 }
 
-/* For medium screens size from 500px wide and down */
+/* For medium screens size from 480px wide and down */
 
-@media screen and (max-width: 480) {
+@media screen and (max-width: 480px) {
 
 #table table {
   width: 100%;
