@@ -13,9 +13,39 @@
 - [Language and Technologies](#language-and-technologies)
 - [Testing](#testing)
 
+
+
 # Introduction
 
+## Who am I
+
+My name is Brían ó Cualáin and I am a native of Inisheer which is the smallest of the Aran Islands archipelago off the west coast of Ireland although I have been living in Ireland for the last 30 years. (Us islanders refer to the mainland as Ireland like someone might refer to it as another country which culturally and linguistically if not indeed physically it almost is.) Inisheer's population has remained around the 300 mark since I grew up there and it continues to be an ever more popular tourist destination endowned as it is by both natural and manmade beauty and its location beside the world renowned Cliffs of Moher, Doolin, Lahinch and the Aran Islands themselves.
+
+## Why the Plassy
+
+I have been fascinated with the Plassy since I was a child. It was a favouite spot in which to play hide and seek or just to explore from the time I first managed to climb up into it, itself a rite of passage of sorts when growing up on Inisheer. One of my scariest and proudest moments was walking accross the 4m iron girder in the engine room in order to climb down there to explore the dark recesses of the ship. The girder was barely 10cm wide and there was a drop of about 4m to the engine room floor which was strewn with debris and rusting metal, hence the mix of fear and pride. Of course it goes withouot saying that I wouldn't encourage anyone to do such a thing today and in fact it is even more dangerous than ever now given the state of corrosion of the plassy and the advanced structural damage caused over time by the incessant pounding of Atlantic storms.
+
+
+
 # Goals
+
+## Personal Goals
+
+- Record knowledge
+- Add to knowledge
+- Learn to create attractive web pages
+- Build a portfolio of webpages
+- Gain employment or create a solo web development business
+
+## User Goals
+
+ - Learn about the Plassy
+ - Learn about shipbuilding
+ - Discover its interesting history
+ - Appreciate the human aspect
+ - Add visiting the Plassy to bucket list
+
+
 
 # Design and Planning
 
