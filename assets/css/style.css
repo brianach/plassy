@@ -14,18 +14,19 @@ h1 {
   padding-left: 1em;
   float: left;
   font-size: 300%;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   color: #3a3a3a;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-#menu,
-#logo {
-  line-height: 30px;
+#menu,#logo {
+  line-height: 40px;
 }
 
 #menu {
   font-size: 150%;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 #menu ul {
@@ -35,7 +36,7 @@ h1 {
 #menu li {
   float: left;
   list-style-type: none;
-  padding-right: 1em;
+  padding-right: 15px;
 }
 
 #menu a {
@@ -106,8 +107,10 @@ h1 {
 /* Introduction section */
 
 #intro {
-  height: 600px;
+  height: 550px;
   padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #left-intro {
@@ -122,7 +125,10 @@ h1 {
 
 #center-intro {
   width: 33%;
+  height: 350px;
   margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 hr {
@@ -271,14 +277,14 @@ hr {
 }
 
 #builder {
-  height: 800px;
+  height: fit-content;
   padding-bottom: 5%;
 }
 
 #specs {
-  padding-top: 10%;
-  width: 50%;
+  position: relative;
   float: left;
+  margin: 5%;
 }
 
 .specs-info {
@@ -287,7 +293,7 @@ hr {
   line-height: 20px;
   clear: both;
   margin-bottom: 5%;
-}
+}*/
 
 #table th,
 td {
@@ -311,6 +317,12 @@ td {
 
 .advert-info img{
   width: inherit;
+}
+
+#archive-images {
+  clear: both;
+  position: relative;
+  float: left;
 }
 
 /*  two colum container for archive images */
@@ -433,19 +445,17 @@ div.img-txt {
   width: 100%
 }
 
+#rescue-section {
+  height: fit-content;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 #finnis-container {
   width: 400px;
   height: 400px;
-  padding: 1px;
-  border-style: solid;
-  border-color: #ccc;
-  border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;
-}
-
-.image-heading h2 {
-  text-align: center;
 }
 
 #circle-finnis {
@@ -453,6 +463,18 @@ div.img-txt {
   background-size: cover;
   height: 100%;
 }
+
+#aftermath {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.image-heading h2 {
+  text-align: center;
+}
+
+
+
 
 #coda div {
   margin-left: auto;
@@ -529,6 +551,7 @@ footer {
   margin: 150px 10% 0 0;
   color: #fff;
   background-color: rgba(60, 60, 60, 0.6);
+
   max-width: 400px;
   position: absolute;
   right: 0%; /*place input section to right for better placement relative to photo */
@@ -538,10 +561,11 @@ footer {
 .feedback-form > h2 {
   color: #fafafa;
   margin-bottom: 20px;
+  letter-spacing: 3px;
 }
 
 .text-input {
-  background: transparent;
+  background: transparent; /* text input area to background or transparent */
   color: #fafafa;
   width: 98%; /* modified to ensure launch button remained inline */
   height: 25px;
@@ -554,7 +578,7 @@ footer {
   border-color: #963c13;
 }
 
-/* place button on the bottom right */
+/* place launch button on the bottom right */
 .feedback-form div { 
   right:5%;
   bottom: 5%;
@@ -584,14 +608,19 @@ footer {
   width: 98%;
 }
 
+#bg-img-ref p {
+  text-align: center;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+
   #intro {
   width: 65%;
-  height: 1200px; 
+  height: 1250px; 
   margin: 0 auto;       
   }
 
@@ -640,36 +669,15 @@ footer {
       padding: 0;
   }
   
-#specs {
-  padding-top: 5%;
-  width: 50%;
-  float: left;
-}
-
-#builder {
-  height: 700px;
-}
 }
   
 /* For medium screens size from 950px wide and down */
 
 @media screen and (max-width: 960px) {
 
-  #menu {
-  clear: left;
-  float: left;
-  margin-left: 30px;       
-  margin-bottom: 20px;
-  line-height: 25px;
-  }
-
-  #cover-text {
-      left: 0;
-  }
-
   #intro {
       width: 90%;
-      height: 1200px; 
+      height: 1150px; 
       margin: 0 auto;       
       }
 
@@ -692,20 +700,13 @@ footer {
     height: 300px;
   }
 
-  #photos {
-      column-count: 3;
-  }
-
   #advert {
     padding-top: 30px;
   }
 
-  #builder {
-    height: 700px;
-  }
 }
 
-/* For medium screens size from 800px wide and down */
+/* For medium screens size from 780px wide and down */
 
 @media screen and (max-width: 780px) {
 
@@ -725,10 +726,6 @@ footer {
   width: 100%;
 }
 
-#builder {
-  height: 600px;
-}
-
 #specs {
   padding-top: 0;
 }
@@ -740,15 +737,34 @@ footer {
 #img-orig {
   column-count: 1;
 }
+}
 
-#photos {
-      column-count: 2;
+/* For medium screens size from 680px wide and down */
+
+@media screen and (max-width: 680px) {
+
+#cover-text {
+  width: 80%;
+  left: 50px;
+}
+
+#menu {
+  clear: left;
+  float: left;
+  margin-left: 30px;       
+  margin-bottom: 20px;
+  line-height: 25px;
   }
 }
 
 /* For medium screens size from 480px wide and down */
 
 @media screen and (max-width: 480px) {
+ 
+#cover-text {
+  height: 220px;
+  left: 10%
+}  
 
 #table table {
   width: 100%;
@@ -764,4 +780,14 @@ footer {
 .feedback-form {
   left: 10%;
 }
+}
+
+/* For medium screens size from 300px wide and down */
+
+@media screen and (max-width: 300px) {
+  
+  #cover-text {
+    height: 280px;
+    left: 10%
+  }  
 }

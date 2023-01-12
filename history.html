@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  
   <header>
     <a href="index.html">
       <h1 id="logo">PLASSY</h1>
@@ -32,11 +33,13 @@
     </nav>
   </header>
 
+  <!-- page title photograph-->
     <section id="plans-outer">
       <div id="plans-image">
       </div>
-    </section>     
+    </section> 
 
+  <!-- timeline menu -->
   <section class="timeline-hist">
     <div class="timeline">
       <a href="history-1940.html"><h2>1940</h2></a>
@@ -52,20 +55,24 @@
     </div>
   </section>
 
+  <!-- general information section -->
   <section>
     <div id="page-title"><h2>Origins</h2></div>
     <div id="origin-intro">
-      <p>The ship was ordered by the British Royal Navy on 12 December 1939.
-
+      <p>
+        The ship was ordered by the British Royal Navy on 12 December 1939.
+      </p>
+      <p>
         She was built as a Shakespearian class trawler which is a subclass of the much larger Isles class.
-
+      </p>
+      <p>
         She was built by Cook, Welton & Gemmel, Shipbuilders of Hull and Beverley, 1883 - 1963
         with a steam engine supplied by Charles D Holmes & Co.
-
       </p>
     </div>
   </section>
 
+  <!-- shipbuilder specification table -->
   <section id="builder">
     <div id="specs">
 
@@ -119,14 +126,25 @@
     </div>
   </section>
 
-  <section id="img-orig">
+  <!-- archive photographs --> 
+  <section id="archive-images">
+    <div id="image-heading-1947"><h2>Archive Images</h2></div>
+    <div id="image-container">
+      <!-- W3 HTML checker gave the following two errors for each img code this section. 
+        'Error: Bad value 100% for attribute width on element img: Expected a digit but saw % instead.'
+        'Error: Bad value 100% for attribute height on element img: Expected a digit but saw % instead.'
+        I chose to leave it be as it worked fine in testing across multiple screen sizes and browsers.
+        Future enhancement will be to use CSS here.
+      -->    
       <div><img src="assets/img/cook_welton_gemmel_1950.webp" alt="Welton & Gemmell Shipyard in 1950"  width="100%" height="100%"><div class="img-txt"> The shipyard in 1950.</div></div>
       <div><img src="assets/img/launch_of_the_vera_1907.webp" alt="Launch of the Vera 1907" width="100%" height="100%"><div class="img-txt"> Launch of the Vera 1907</div></div>
       <div><img src="assets/img/cd_holmes2.webp" alt="A Holmes & Sons steam poweplant on a truck before installation." width="100%" height="100%"><div class="img-txt"> Steam powerplant delivery. </div></div>
       <div><img src="assets/img/cd_homes1.webp" alt="The Holmes & Sons steam powerplant being installed on a ship." width="100%" height="100%"><div class="img-txt"> Steam powerplant installation. </div></div>
-    </section>
+  </section>
 
-    <section class="timeline-hist">
+
+<!-- timeline menu -->
+  <section class="timeline-hist">
       <div class="timeline">
         <a href="history-1940.html"><h2>1940</h2></a>
       </div>
@@ -140,7 +158,8 @@
         <a href="history-1960.html"><h2>1960</h2></a>
       </div>
     </section> 
-    
+
+    <!-- reference used -->
     <section id="refs">
         <div id="refs-title"><h2>Origins References</h2></div>
         <div>        
