@@ -1,7 +1,7 @@
 
 # Plassy
 
-![Screens]("doc/screens.jpg")
+![Screens]
 
 # Table of Contents
 
