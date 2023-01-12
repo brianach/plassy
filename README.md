@@ -19,7 +19,8 @@
 
 # Design and Planning
 
-I wanted to incorporate the idea of a historical timeline using skewed and staggered pictures with basic informaion below and above each year. However I wasn't able to impletent this in testing to allow for different screen sizes so I abandoned the idea in favour of a simpler layout.
+I wanted to incorporate the idea of a historical timeline using skewed and staggered pictures with basic information below and above each year. However I wasn't able to impletent this in testing to allow for different screen sizes so I abandoned the idea in favour of a simpler layout.
+![Previous Idea](docs/scrapped.png)
 
 ## Index Page
 
