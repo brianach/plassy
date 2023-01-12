@@ -1,7 +1,7 @@
 
 # Plassy
 
-![Screens]
+![Mockup Screen Image](doc/screens.png)
 
 # Table of Contents
 
