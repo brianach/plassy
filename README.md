@@ -205,6 +205,16 @@ I tested the site using various browsers on the differnet devices.
 
 ## <h1>User Story Testing</h1><br>
 
+## <h1>Acknowledgements</h1>
+
+Thanks to the following people who have supported me:
+
+  + My mentor Gaff (Naoise Gaffney)
+  + Cohort team lead Jonny Davison
+  + My wife Tricia
+  + All the slackers on Code Institue
+  + LWETB and Code Institute for the opportunity to do this
+
 
 
 
