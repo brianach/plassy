@@ -321,6 +321,8 @@ td {
   width: inherit;
 }
 
+/* Imagessection */
+
 #archive-images {
   clear: both;
   position: relative;
@@ -334,6 +336,26 @@ td {
   clear: both;
   column-count: 2;
   column-gap: 0;
+}
+
+.shipyard {
+  height: 100%;
+  width: 100%;
+}
+
+.vera {
+  height: 100%;
+  width: 100%;
+}
+
+.delivery {
+  height: 100%;
+  width: 100%;
+}
+
+.installation {
+  height: 100%;
+  width: 100%;
 }
 
 div.img-dims {
