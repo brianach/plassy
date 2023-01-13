@@ -172,11 +172,11 @@ I tested the site using various browsers on the differnet devices.
 
 ### <h2>Validation</h2><br>
 
-*  [HTML Validator](https://validator.w3.org/) was used throughout the project to test for errors. Somepages exhibit errors but the presentation and performace of the pages are not affected and have been tested on various browsers and platforms without issue. The browsers and platforms are Chrome, Firefox, Opera, Safari, Android, iOS. 
+*  [HTML Validator](https://validator.w3.org/) was used throughout the project to test for errors. 
 
-    The pages with the errors are as follows: history.html history-1960.html. The errors are due to using inline styling for images which were not rendering correctly at the point of submission and will be address in CSS in a future enhancement. In addtion history-1960.html generated an iframe error where I put some youtube content at the bottom of the page. This will also be address in CSS in a future enhancement.
+    History-1960.html generated an iframe error where I put some youtube content at the bottom of the page. This will be addressed in CSS in a future enhancement.
 
-    Finally a number of pages generated warning where sections do not have any heading. Again presentation or performace not impacted and errors will be address in a future enhancement.
+    A number of pages generated warning where sections do not have any heading. Presentation or performace not impacted on any device and will be address in a future enhancement.
 
 * [CSS Validator](https://validator.w3.org/) used to check for and correct errors. There are currently no errors in the code as submitted.
 
