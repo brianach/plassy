@@ -1,5 +1,5 @@
 
-# Plassy
+# <h1>Plassy</h1>
 
 ![Mockup Screen Image](doc/screens.png)
 
@@ -7,9 +7,10 @@
 <hr>
 <br>
 
-## Table of Contents
+## <h1>Table of Contents</h1>
 
 <br>
+
 
 - [Plassy](#plassy)
 - [Introduction](#introduction)
@@ -31,25 +32,23 @@
 
 <br><hr><br>
 
-## Introduction
+## <h1>Introduction</h1><br>
 
-<hr><br>
-
-### Who am I?
+### <h2>Who am I?</h2><br>
 
 My name is Brían ó Cualáin and I am a native of Inisheer which is the smallest of the Aran Islands archipelago off the west coast of Ireland although I have been living in Ireland for the last 30 years. ( We islanders refer to the mainland as Ireland like someone might refer to it as another country which culturally and linguistically if not indeed physically it almost is. 😉) Inisheer's population has remained around the 300 mark since I grew up there and it continues to be an ever more popular tourist destination endowned as it is by both natural and manmade beauty and its location beside the world renowned Cliffs of Moher, Doolin, Lahinch and the Aran Islands themselves.
 
-### Why the Plassy?
+### <h2>Why the Plassy?</h2><br>
 
 I have been fascinated with the Plassy since I was a child. It was a favouite spot in which to play hide and seek or just to explore from the time I first managed to climb up into it, itself a rite of passage of sorts when growing up on Inisheer. One of my scariest and proudest moments was walking accross the 4m iron girder in the engine room in order to climb down there to explore the dark recesses of the ship. The girder was barely 10cm wide and there was a drop of about 4m to the engine room floor which was strewn with debris and rusting metal, hence the mix of fear and pride. Of course it goes withouot saying that I wouldn't encourage anyone to do such a thing today and in fact it is even more dangerous than ever now given the state of corrosion of the plassy and the advanced structural damage caused over time by the incessant pounding of Atlantic storms.
 
 <br><hr><br>
 
-## Goals
+## <h1>Goals</h1><br>
 
-<hr><br>
+### <h2>Personal Goals</h2>
 
-### Personal Goals
+<br>
 
 - Record knowledge
 - Add to knowledge
@@ -59,7 +58,11 @@ I have been fascinated with the Plassy since I was a child. It was a favouite sp
 
 Its my intention to add further to the Plassy in terms of information and enhancement and to broade its scope to related maritime and historical topics. Future enhancement would also include accomadation and travel information. 
 
-### Visitor Goals
+<br>
+
+### <h2>Visitor Goals</h2>
+
+<br>
 
  - Learn about the Plassy
  - Learn about shipbuilding
@@ -67,13 +70,15 @@ Its my intention to add further to the Plassy in terms of information and enhanc
  - Appreciate the human aspect
  - Add visiting the Plassy to bucket list
 
+<br><hr><br>
 
-
-## Design and Planning
+## <h1>Design and Planning</h1><br>
 
 The website is designed inspire curiousity, nostalgia and adventure. It is designed as three main pages but features a center page that takes the visitor into a more engaging experience with the subject by the use of four pages that give more information in realtion to the specific timepoints in the chronology.
 
-### Color
+<br>
+
+### <h2>Color</h2><br>
 
 I chose a sepia inspired color scheme but also one that is in harmony with the subject in terms of tone and feel. The colors and transparent text backgrounds are closely matched to the rust tones in the subject matter. See example.
 ![Color sampling](doc/design/cover-text-transparency.png)
@@ -83,24 +88,32 @@ Initially I wanted to incorporate the idea of a historical timeline using skewed
 
 ![Previous Idea](doc/scrapped.png)
 
-### Fonts
+<br>
+
+### <h2>Fonts</h2><br>
 
 I chose IM Fell for the Title and Menu and Lora for the body. I chose IM Feel as I wanted something with an antique flavour to it and Lora as it was a good comlimentary font. IM Fell was also a good match for the Plassy prefix.
 
-### Structure
+<br>
+
+### <h2>Structure</h2><br>
 
 I stayed with a basic clean look and feel again taking design cues from the Love Running project. The interface is clear and simple but in addition the sub pages which can only be accessed via the history page is exteremly intuitive. In fact the first person I asked to have a look immediately went to that timeline link bar without my having to point out that it was a link bar. 
 
 I chose not to turn the timeline at the bottom of the home page into a link bar because it would prevent the visitor from going to the history page first. This page is the starting off page for the history journey and it would be wrong to have the visitor go to the timeline pages prior to that.
 
-### Features
+<br>
 
- - Navigation Bar
- - Timeline
- - Social Media Footer
- - Timeline Linkbar
+### <h2>Features</h2><br>
 
-### Wireframes
+ * Navigation Bar
+ * Timeline
+ * Social Media Footer
+ * Timeline Linkbar
+
+<br>
+
+### <h2>Wireframes</h2><br>
 
 <details><summary>Home</summary><img src="doc/design/home_page.png"></details>
 <details><summary>History</summary><img src="doc/design/hist_page.png"></details>
@@ -108,7 +121,8 @@ I chose not to turn the timeline at the bottom of the home page into a link bar 
 
 <br>
 
-### Languages and Technologies
+### <h2>Languages and Technologies</h2><br>
+
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes
 
@@ -120,22 +134,36 @@ I chose not to turn the timeline at the bottom of the home page into a link bar 
 
 [Photoshop](https://sdobe.com) was used to manipulate images
 
+[HTML](https://en.wikipedia.org/wiki/HTML) HTML for the text content and some media
+
+[CSS](https://en.wikipedia.org/wiki/CSS) CSS for the design and some media
+
+<br><hr><br>
+
+## <h1>Testing</h1><br>
+
 <br>
 
-<hr>
+*  I used [HTML Validator](https://validator.w3.org/) throughout the project to test for errors. The following pages exhibit errors but the presentation and performace of the pages are not affected and have been tested on various browsers and platforms without issue. These are Chrome, Firefox, Opera, Safari, Android. 
 
-## Testing
+The pages with the errors are as follows: history.html history-1960.html. The errors are due to using inline styling for images which were not rendering correctly at the point of submission and will be address in CSS in a future enhancement. In addtion history-1960.html generated an iframe error where I put some youtube content at the bottom of the page. This will also be address in CSS in a future enhancement.
 
-<hr>
+Finally a number of pages generated warning where sections do not have any heading. Again presentation or performace not impacted and errors will be address in a future enhancement.
 
-### Validation
+* [CSS Validator](https://validator.w3.org/) used to check for and correct errors. There are currently no errors in the code as submitted.
 
-### Responsiveness
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
-## User Story Testing
+### <h2>Validation</h2><br>
+
+<br>
+
+### <h2>Responsiveness</h2><br>
+
+<br><hr><br>
+
+## <h1>User Story Testing</h1><br>
 
 
 
-
-[def]: https
 
