@@ -26,9 +26,10 @@
   + [Features](#features)
   + [Wireframes](#wireframes)
   + [Languages and Technologies](#languages-and-technologies)
-
-- [Language and Technologies](#language-and-technologies)
 - [Testing](#testing)
+  + [Performance](#performance)
+  + [Validation](#validation)
+  + [Reponsiveness](#responsiveness)
 
 <br><hr><br>
 
@@ -80,7 +81,8 @@ The website is designed inspire curiousity, nostalgia and adventure. It is desig
 
 ### <h2>Color</h2><br>
 
-I chose a sepia inspired color scheme but also one that is in harmony with the subject in terms of tone and feel. The colors and transparent text backgrounds are closely matched to the rust tones in the subject matter. See example.
+I chose a sepia inspired color scheme but also one that is in harmony with the subject in terms of tone and feel. The colors and transparent text backgrounds are closely matched to the rust tones in the subject matter.
+
 ![Color sampling](doc/design/cover-text-transparency.png)
 
 
@@ -144,21 +146,60 @@ I chose not to turn the timeline at the bottom of the home page into a link bar 
 
 <br>
 
-*  I used [HTML Validator](https://validator.w3.org/) throughout the project to test for errors. The following pages exhibit errors but the presentation and performace of the pages are not affected and have been tested on various browsers and platforms without issue. These are Chrome, Firefox, Opera, Safari, Android. 
+### <h2>Performance</h2><br>
 
-The pages with the errors are as follows: history.html history-1960.html. The errors are due to using inline styling for images which were not rendering correctly at the point of submission and will be address in CSS in a future enhancement. In addtion history-1960.html generated an iframe error where I put some youtube content at the bottom of the page. This will also be address in CSS in a future enhancement.
+I used developer tools in Chrome and Firefox during development in order to continuouly gauge performance and responsiveness. The following hardware was used to test real life performace.
 
-Finally a number of pages generated warning where sections do not have any heading. Again presentation or performace not impacted and errors will be address in a future enhancement.
+#### Devices Used
+
+* Desktop PC  
+* Macbook Pro
+* Macbook Air
+* Lenovo Yoga
+* Huawei P20 
+* iPhone
+
+I tested the site using various browsers on the differnet devices.
+
+#### Browsers Used
+
+* Microsoft Edge
+* Safari
+* Google Chrome
+* Mozilla Firefox
+* Opera
+<br>
+
+### <h2>Validation</h2><br>
+
+*  [HTML Validator](https://validator.w3.org/) was used throughout the project to test for errors. Somepages exhibit errors but the presentation and performace of the pages are not affected and have been tested on various browsers and platforms without issue. The browsers and platforms are Chrome, Firefox, Opera, Safari, Android, iOS. 
+
+    The pages with the errors are as follows: history.html history-1960.html. The errors are due to using inline styling for images which were not rendering correctly at the point of submission and will be address in CSS in a future enhancement. In addtion history-1960.html generated an iframe error where I put some youtube content at the bottom of the page. This will also be address in CSS in a future enhancement.
+
+    Finally a number of pages generated warning where sections do not have any heading. Again presentation or performace not impacted and errors will be address in a future enhancement.
 
 * [CSS Validator](https://validator.w3.org/) used to check for and correct errors. There are currently no errors in the code as submitted.
 
-* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
-
-### <h2>Validation</h2><br>
 
 <br>
 
 ### <h2>Responsiveness</h2><br>
+
+* [Lighthouse](https://developer.chrome.com/en/docs/lighthouse/) in Chrome Developer Tools was used to check performance. 
+
+  <details><summary>Home</summary><img src="doc/perform/homepage.png"></details>
+  <details><summary>History</summary><img src="doc/perform/history.png"></details>
+
+      Performance will be improved here by reducing the size of the main graphic and setting explit width and size on image elements.
+
+    <details><summary>History-1940</summary><img src="doc/perform/history-1940.png"></details>
+    <details><summary>History-1947</summary><img src="doc/perform/history-1947.png"></details>
+    <details><summary>History-1951</summary><img src="doc/perform/history-1951.png"></details>
+    <details><summary>History-1960</summary><img src="doc/perform/history-1960.png"></details>
+
+      This page has a large amount of images to support the information on the page. Performance will be improved here by reducing the size of the images and setting explit width and size on all image elements. 
+
+  <details><summary>Feedback</summary><img src="doc/perform/feedback.png"></details>
 
 <br><hr><br>
 
