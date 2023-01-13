@@ -37,7 +37,7 @@
 
 ### <h2>Who am I?</h2><br>
 
-My name is Brían ó Cualáin and I am a native of Inisheer which is the smallest of the Aran Islands archipelago off the west coast of Ireland although I have been living in Ireland for the last 30 years. ( We islanders refer to the mainland as Ireland like someone might refer to it as another country which culturally and linguistically if not indeed physically it almost is. 😉) Inisheer's population has remained around the 300 mark since I grew up there and it continues to be an ever more popular tourist destination endowned as it is by both natural and manmade beauty and its location beside the world renowned Cliffs of Moher, Doolin, Lahinch and the Aran Islands themselves.
+My name is Brían ó Cualáin and I am a native of Inisheer which is the smallest of the Aran Islands archipelago off the west coast of Ireland although I have been living in Ireland for the last 30 years. ( We islanders refer to the mainland as Ireland in the same way someone might refer to it as another country which culturally and linguistically if not indeed physically it almost certainly is. 😉) Inisheer's population has remained around the 300 mark since I grew up there and it continues to be an ever more popular tourist destination endowned as it is by both natural and manmade beauty and its location beside the world renowned Cliffs of Moher, Doolin, Lahinch and the Aran Islands themselves.
 
 ### <h2>Why the Plassy?</h2><br>
 
@@ -51,13 +51,13 @@ I have been fascinated with the Plassy since I was a child. It was a favouite sp
 
 <br>
 
-- Record knowledge
-- Add to knowledge
+- Record knowledge of the subject
+- Add to knowledge of the subject
 - Learn to create attractive web pages
 - Build a portfolio of webpages
 - Gain employment or create a solo web development business
 
-Its my intention to add further to the Plassy in terms of information and enhancement and to broade its scope to related maritime and historical topics. Future enhancement would also include accomadation and travel information. 
+Its my intention to add further to the Plassy in terms of information and enhancement and to broaden its scope to related maritime and historical topics. Future enhancement may also include relevant accomodation and travel information for the visitor. 
 
 <br>
 
@@ -75,18 +75,18 @@ Its my intention to add further to the Plassy in terms of information and enhanc
 
 ## <h1>Design and Planning</h1><br>
 
-The website is designed inspire curiousity, nostalgia and adventure. It is designed as three main pages but features a center page that takes the visitor into a more engaging experience with the subject by the use of four pages that give more information in realtion to the specific timepoints in the chronology.
+The website is designed inspire curiousity, nostalgia and adventure. It has three main pages and a central history page that takes the visitor into a more engaging experience with the subject by using additional pages containing more information in realtion to the specific timepoints in the chronology.
 
 <br>
 
 ### <h2>Color</h2><br>
 
-I chose a sepia inspired color scheme but also one that is in harmony with the subject in terms of tone and feel. The colors and transparent text backgrounds are closely matched to the rust tones in the subject matter.
+I chose a sepia inspired color scheme but also one that is in harmony with the subject in terms of tone and feel. The colors and transparent text backgrounds are closely matched to the rust tones in the subject matter. I chose the second transparent color to improve contrast on the hero image cover text. 
 
 ![Color sampling](doc/design/cover-text-transparency.png)
 
 
-Initially I wanted to incorporate the idea of a historical timeline using skewed and staggered pictures with basic information below and above each year. However I wasn't able to impletent this in testing to allow for different screen sizes so I abandoned the idea in favour of a simpler layout based on and incorporating some of the code from the Love Running project. I may revisit this idea after I gain more experience and skills in web development. <a href="https://codepen.io/brianach/pen/eYjZgYm" target="blank">Code Snippet</a>
+Initially I wanted to incorporate the idea of an historical timeline using skewed and staggered pictures with basic information below and above each year. However I wasn't able to impletent this in testing to allow for different screen sizes so I abandoned the idea in favour of a simpler layout based on and incorporating some of the code from the Love Running project. I may revisit this idea after I gain more experience and skills in web development. <a href="https://codepen.io/brianach/pen/eYjZgYm" target="blank">Code Snippet</a>
 
 ![Previous Idea](doc/scrapped.png)
 
@@ -94,15 +94,17 @@ Initially I wanted to incorporate the idea of a historical timeline using skewed
 
 ### <h2>Fonts</h2><br>
 
-I chose IM Fell for the Title and Menu and Lora for the body. I chose IM Feel as I wanted something with an antique flavour to it and Lora as it was a good comlimentary font. IM Fell was also a good match for the Plassy prefix.
+I chose IM Fell for the Title and Menu and Lora for the body. I chose IM Fell as I wanted something with an antique flavour to it and I chose Lora as it was a good comlimentary font. IM Fell was also a good match for the Plassy prefix.
 
 <br>
 
 ### <h2>Structure</h2><br>
 
-I stayed with a basic clean look and feel again taking design cues from the Love Running project. The interface is clear and simple but in addition the sub pages which can only be accessed via the history page is exteremly intuitive. In fact the first person I asked to have a look immediately went to that timeline link bar without my having to point out that it was a link bar. 
+I stayed with a basic clean look and feel, again taking design cues from the Love Running project. The interface is clear and simple but in addition the sub pages which can only be accessed via the history page is highly intuitive. In fact the first person I asked to have a look immediately went to that timeline link bar without my having to point out that it was a navigation bar. 
 
-I chose not to turn the timeline at the bottom of the home page into a link bar because it would prevent the visitor from going to the history page first. This page is the starting off page for the history journey and it would be wrong to have the visitor go to the timeline pages prior to that.
+![Menubar](doc/menubar.png)
+
+I chose not to turn the timeline at the bottom of the home page into a navigation bar because it would prevent the visitor from going to the history page first. This page is the starting off point for the history journey and the visitor might miss out on this central point of the journey if the timeline were used to link to other pages.
 
 <br>
 
@@ -111,7 +113,8 @@ I chose not to turn the timeline at the bottom of the home page into a link bar 
  * Navigation Bar
  * Timeline
  * Social Media Footer
- * Timeline Linkbar
+ * Timeline Navigation Bar
+ * Feedback form
 
 <br>
 
@@ -148,7 +151,7 @@ I chose not to turn the timeline at the bottom of the home page into a link bar 
 
 ### <h2>Performance</h2><br>
 
-I used developer tools in Chrome and Firefox during development in order to continuouly gauge performance and responsiveness. The following hardware was used to test real life performace.
+I used developer tools in Chrome and Firefox during development in order to continuouly gauge performance and responsiveness. The following hardware was used to test real life performance.
 
 #### Devices Used
 
@@ -176,9 +179,9 @@ I tested the site using various browsers on the differnet devices.
 
     History-1960.html generated an iframe error where I put some youtube content at the bottom of the page. This will be addressed in CSS in a future enhancement.
 
-    A number of pages generated warning where sections do not have any heading. Presentation or performace not impacted on any device and will be address in a future enhancement.
+    A number of pages generated warning where sections do not have any heading. Presentation or performance is not impacted on any device and will be addressed in a future enhancement.
 
-* [CSS Validator](https://validator.w3.org/) used to check for and correct errors. There are currently no errors in the code as submitted.
+* [CSS Validator](https://validator.w3.org/) used to check for and correct errors. There are currently no errors in the code as currently submitted.
 
 
 <br>
