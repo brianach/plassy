@@ -338,6 +338,8 @@ td {
   column-gap: 0;
 }
 
+/* individual image sizing to ensure correct display */
+
 .shipyard {
   height: 100%;
   width: 100%;
@@ -495,6 +497,33 @@ div.img-txt {
 
 .image-heading h2 {
   text-align: center;
+}
+
+/* individual image sizing to ensure correct display */
+
+.exercise{
+  height: 100%;
+  width: 100%;
+}
+
+.portside {
+  height: 100%;
+  width: 100%;
+}
+
+.starboard {
+  height: 100%;
+  width: 100%;
+}
+
+.foreground {
+  height: 100%;
+  width: 100%;
+}
+
+.astern {
+  height: 100%;
+  width: 100%;
 }
 
 #coda div {
