@@ -921,4 +921,8 @@ color: #3a3a3a;
     height: 280px;
     left: 10%
   }  
+
+  .timeline h2 {
+      font-size: revert;
+  }
 }
