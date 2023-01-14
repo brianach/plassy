@@ -468,14 +468,24 @@ div.img-txt {
 }
 
 #origin-intro img {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 450px;
 }
 
 #rescue-section {
   height: fit-content;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.rescue-images {
+  width: fit-content;
+  margin:auto;
+}
+
+.rescue-images p {
+  width: fit-content;
+  margin: auto;
 }
 
 #finnis-container {
