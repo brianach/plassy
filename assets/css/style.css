@@ -477,7 +477,6 @@ div.img-txt {
 #circle-emblem {
   width: 300px;
   height: 300px;
-
   border-style: solid;
   border-color: #ccc;
   border-width: 1px;
@@ -502,6 +501,10 @@ div.img-txt {
   margin-right: 5%;
 }
 
+#rescue {
+  width: 100$;
+}
+
 .rescue-images {
   width: fit-content;
   margin:auto;
@@ -513,13 +516,27 @@ div.img-txt {
 }
 
 #finnis-container {
-  width: 400px;
+  clear: both;
+  position: relative;
+  margin: auto;
+  padding-top: 25px;
+  /*width: 400px;
   height: 400px;
+  border-radius: 50%;
+  margin: 0 auto;*/
+}
+
+#circle-finnis {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
-#circle-finnis {
+#circle-cover-finnis {
   background: url("../img/finnis-buoy.webp") no-repeat center center;
   background-size: cover;
   height: 100%;
@@ -839,6 +856,7 @@ color: #3a3a3a;
 #img-orig {
   column-count: 1;
 }
+
 }
 
 /* For medium screens size from 680px wide and down */
@@ -888,6 +906,11 @@ color: #3a3a3a;
   left: 10%;
   margin: 50px 10% 0 0;
 }
+
+.rescue-images img {
+  width: 100%;
+}
+
 }
 
 /* For medium screens size from 300px wide and down */
