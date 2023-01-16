@@ -182,8 +182,8 @@ hr {
 
 /* Timeline */
 
-#timeline-home {
-  background-image: url("../img/plassy.webp");
+#timeline {
+  background-image: url("../img/1951/plassy.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -191,7 +191,7 @@ hr {
   overflow: hidden;
 }
 
-#timeline-home div {
+#timeline div {
   color: #fafafa;
   background-color: rgba(80, 34, 8, 0.644);
   width: 25%;
@@ -204,7 +204,7 @@ hr {
   box-sizing: border-box;
 }
 
-#timeline-home h2 {
+#timeline h2 {
   text-underline-offset: 15%;
   font-size: 200%;
   text-decoration: underline;
@@ -226,7 +226,7 @@ hr {
 }
 
 .timeline-hist {
-  background-image: url("../img/plassy.webp");
+  background-image: url("../img/1951/plassy.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -272,9 +272,10 @@ hr {
 }
 
 .specs {
+  width: 40%;
   position: relative;
   float: left;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
 }
 
 .specs-info {
@@ -285,11 +286,22 @@ hr {
   margin-bottom: 5%;
 }
 
-#table th,
-td {
+
+#table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#table th {
   text-align: left;
   padding: 2%;
   width: 150px;
+}
+
+#table td {
+  text-align: left;
+  padding: 2%;
+  width: 200px;
 }
 
 .advert {
@@ -312,6 +324,7 @@ td {
 /* Imagessection */
 
 #archive-images {
+  width: 100%;
   clear: both;
   position: relative;
   float: left;
@@ -717,6 +730,7 @@ footer {
   }
 
   .specs {
+    width: 100%;
     float: none;
     margin-top: 0;
     padding-top: 0;
