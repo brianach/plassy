@@ -678,7 +678,7 @@ footer {
   }
 }
 
-/* For medium screens size from 950px wide and down */
+/* For medium screens size from 960px wide and down */
 
 @media screen and (max-width: 960px) {
   #intro {
