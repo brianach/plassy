@@ -30,6 +30,9 @@
   + [Performance](#performance)
   + [Validation](#validation)
   + [Reponsiveness](#responsiveness)
+- [User Story Testing](#user-story-testing)
+- [Acknowledgements](#acknowledgements)
+- [Credits](#credits)
 
 <br><hr><br>
 
@@ -41,7 +44,7 @@ My name is Brían ó Cualáin and I am a native of Inisheer which is the smalles
 
 ### <h2>Why the Plassy?</h2><br>
 
-I have been fascinated with the Plassy since I was a child. It was a favouite spot in which to play hide and seek or just to explore from the time I first managed to climb up into it, itself a rite of passage of sorts when growing up on Inisheer. One of my scariest and proudest moments was walking accross the 4m iron girder in the engine room in order to climb down there to explore the dark recesses of the ship. The girder was barely 10cm wide and there was a drop of about 4m to the engine room floor which was strewn with debris and rusting metal, hence the mix of fear and pride. Of course it goes withouot saying that I wouldn't encourage anyone to do such a thing today and in fact it is even more dangerous than ever now given the state of corrosion of the plassy and the advanced structural damage caused over time by the incessant pounding of Atlantic storms.
+My father Máirtín ó Cualáin (Martin Folan) was a member of the onshore rescue unit and took part in the rescue of the Plassy crew. I myself have been fascinated with the Plassy since I was a child. It was a favouite spot in which to play hide and seek or just to explore from the time I first managed to climb up into it, itself a rite of passage of sorts when growing up on Inisheer. One of my scariest and proudest moments was walking accross the 4m iron girder in the engine room in order to climb down there to explore the dark recesses of the ship. The girder was barely 10cm wide and there was a drop of about 4m to the engine room floor which was strewn with debris and rusting metal, hence the mix of fear and pride. Of course it goes withouot saying that I wouldn't encourage anyone to do such a thing today and in fact it is even more dangerous than ever now given the state of corrosion of the plassy and the advanced structural damage caused over time by the incessant pounding of Atlantic storms.
 
 <br><hr><br>
 
@@ -218,6 +221,78 @@ Thanks to the following people who have supported me:
   + All the slackers on Code Institue
   + LWETB and Code Institute for the opportunity to do this
 
+<br>
 
+## <h1>Credits</h1>
 
+### <h2>Origins References (History)</h2>
 
+  + <h3><a href="https://www.wrecksite.eu/ownerBuilderView.aspx?533" target="_blank">[Photograph of Cook, Welton & Gemmel shipyard]()</a></h3>
+  + <h3><a href="https://en.wikipedia.org/wiki/Cook,_Welton_%26_Gemmell" target="_blank">Wikipedia entry for Cook, Welton & Gemmel</a></h3>
+  + <h3><a href="https://www.shipsnostalgia.com/media/hms-juliet.38115/" target="_blank">Ship specifications for HMT Juliet</a></h3>
+  + <h3><a href="https://www.gracesguide.co.uk/Cook,_Welton_and_Gemmell" target="_blank">Cook, Welton & Gemmel entry on Grace's Guide</a></h3>
+
+<br>    
+
+### <h2>Juliet References (1940) </h2>
+
+  + <h3><a href="https://uboat.net/allies/warships/ship/6599.html" target="_blank">HMT Juliet Commanders</a></h3>
+  + <h3><a href="https://en.wikipedia.org/wiki/Operation_Torch" target="_blank">Wikipedia entry for Operation Torch</a></h3>
+  + <h3><a href="https://www.shipsnostalgia.com/media/hms-juliet.38115/" target="_blank">Photograph of HMS Juliet</a></h3>
+
+<br> 
+
+### <h2>Peterjon References (1947)</h2>
+
+  + <h3><a href="https://www.shipsnostalgia.com/media/peterjon.32520/" target="_blank">Photograph of Peterjon ready to sail</a></h3>
+  + <h3><a href="https://www.shipsnostalgia.com/media/h-m-s-juliet.24578/" target="_blank">Waiting conversion photograph</a></h3>
+  + <h3><a href="https://www.shipsnostalgia.com/media/plassy.230865/" target="_blank">Almost complete photograph</a></h3>
+  + <h3><a href="https://www.shipsnostalgia.com/media/j-s-doigs-no-1-fitting-shop.105137/" target="_blank">JS Doig's Shipyards</a></h3>
+  + <h3><a href="https://www.gracesguide.co.uk/Crossley_Brothers" target="_blank">Crossley Brothers entry on Graces Guide</a></h3>
+  + <h3><a href="https://en.wikipedia.org/wiki/Crossley" target="_blank">Wikipedia entry for Crossley</a></h3>
+  + <h3><a href="https://lifeboatmagazinearchive.rnli.org/volume/32/349/services-of-the-life-boats-of-the-institution-during-1948?searchterm=Yacht+Gan&page=194" target="_blank">RNLI Archive page</a></h3>
+  + <h3><a href="https://rnliarchive.blob.core.windows.net/media/1350/0349.pdf#page=34" target="_blank">Pages 12 & 40 RNLI Archive featuring SS Peterjon</a></h3>
+
+<br>
+
+### <h2>Plassy References (1951)</h2>
+
+  + <h3><a href="https://www.flickr.com/photos/scottishmaritimemuseum/15651974933" target="_blank">The Plassy at sea from Scottish Maritime Museum on Flickr</a></h3>
+  + <h3><a href="https://www.navionics.com/gbr/charts/" target="_blank"> Navionics online nautical charts</a></h3>
+  
+<br>
+
+### <h2>Rescue References</h2>
+
++ <h3><a href="https://www.facebook.com/211241455563057/photos/pb.100064625141906.-2207520000./881297881890741/?type=3" target="_blank">Main photograph</a></h3>
++ <h3> Photograph of Onshore Rescue Unit logo on the doors of 'Teachín an Rocket', Inisheer. Ronán McCall 2003.
+
++ <h3>List of photographs of the Plassy from private collection</h3>
+
+      Plassy on Finnis rock after rescue
+
+      Onshore Rescue Unit arrives
+
+      Rescue unit assembling 'Rocket'
+
+      Final attempt at rcoket firing
+
+      Unit preparing to pull
+
+      Final crew member ashore
+
+      Plassy lifeboat on rocks
+
++  <h3><a href="https://www.geograph.org.uk/gridref/L9901?user=15801" target="_blank">From Harold Strong photography on Geograph</a></h3>
+
+        Onshore Rescue Unit on exercise 1962
+
+        Plassy on the rocks port side
+
+        Plassy on the rocks starboard side
+
+        Anchors in the foreground
+
+        Plassy bridge looking astern
+
++ <h3><a href="https://youtu.be/ca9_nFfjYgs" target="_blank">Video by Nuno Charneca from the Portuguese National Civil Engineering Laboratory for the drone footage. This video was made as part of a drone demo during Citizen Science + GIS Training School @ NUI Galway organized by Seán Lynch, NUIG Geography Society and funded by COST (cost.eu). 22 Aug 2015.</a></h3>
