@@ -64,7 +64,6 @@ h1 {
 #hero-image {
   height: 600px;
   width: 100%;
-  background: url("../img/resting.webp") no-repeat center center;
   background-size: cover;
 
   /*animates zoom effect on loading page */
@@ -72,6 +71,11 @@ h1 {
   animation-duration: 5s;
   animation-fill-mode: backwards;
 }
+
+.hero-image {
+  background: url("../img/resting.webp") no-repeat center center;
+}
+
 
 /* create the level of zoom for the hero image */
 @keyframes hero-zoom {
@@ -209,23 +213,8 @@ hr {
 
 /* history pages */
 
-#plans-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-#plans-image {
-  height: 600px;
-  width: 100%;
+.hist-image {
   background: url("../img/trawler_class_section_bw.webp") no-repeat top center;
-  background-size: cover;
-
-  /*animates zoom effect on loading page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: backwards;
 }
 
 .timeline a {
@@ -268,7 +257,6 @@ hr {
   text-align: center;
   font-size: 150%;
   letter-spacing: 3px;
-  /*padding: 1%; */
 }
 
 #origin-intro {
@@ -374,45 +362,20 @@ div.img-txt {
 
 /* history 1940 page */
 
-#juliet-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
+/*main image*/
 
-#juliet-image {
-  height: 600px;
-  width: 100%;
+.juliet-image {
   background: url("../img/1940/juliet.webp") no-repeat center center;
-  background-size: cover;
-
-  /*animates zoom effect on loading page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: backwards;
 }
 
 
 /* history 1947 page */
 
-#peterjon-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
+/*main image*/
 
-#peterjon-image {
-  height: 600px;
-  width: 100%;
+.peterjon-image {
   background: url("../img/1947/peterjon.webp") no-repeat center center;
   background-size: cover;
-
-  /*animates zoom effect on loading page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: backwards;
 }
 
 #image-heading-1947 div{
@@ -422,23 +385,11 @@ div.img-txt {
 
 /* history 1951 page */
 
-#plassy-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
+/*main image*/
 
-#plassy-image {
-  height: 600px;
-  width: 100%;
+.plassy-image {
   background: url("../img/1951/plassy-air.webp") no-repeat center center;
   background-size: cover;
-
-  /*animates zoom effect on loading page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: backwards;
 }
 
 #chart img {
@@ -447,8 +398,12 @@ div.img-txt {
 
 /* history 1960 page */
 
+.rescue-image {
+  background: url("../img/1960/rescue-color.webp") no-repeat center center;
+}
 
-#rescue-outer {
+/*main image*/
+/* #rescue-outer {
   height: 600px;
   width: 100%;
   overflow: hidden;
@@ -459,13 +414,13 @@ div.img-txt {
   height: 600px;
   width: 100%;
   background: url("../img/1960/rescue-color.webp") no-repeat center center;
-  background-size: cover;
+  background-size: cover; 
 
   /*animates zoom effect on loading page */
-  animation-name: hero-zoom;
+ /* animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: backwards;
-}
+}*/
 
 #emblem-container {
   clear: both;
