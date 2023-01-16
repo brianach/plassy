@@ -20,7 +20,8 @@ h1 {
   margin-bottom: 2%;
 }
 
-#menu,#logo {
+#menu,
+#logo {
   line-height: 40px;
 }
 
@@ -75,7 +76,6 @@ h1 {
 .hero-image {
   background: url("../img/resting.webp") no-repeat center center;
 }
-
 
 /* create the level of zoom for the hero image */
 @keyframes hero-zoom {
@@ -245,7 +245,7 @@ hr {
 }
 
 .timeline-hist h2 {
-  font-family: 'IM Fell Double Pica SC';
+  font-family: "IM Fell Double Pica SC";
   text-underline-offset: 15%;
   letter-spacing: 3px;
   font-size: 200%;
@@ -305,7 +305,7 @@ td {
   margin-bottom: 5%;
 }
 
-.advert-info img{
+.advert-info img {
   width: inherit;
 }
 
@@ -327,42 +327,15 @@ td {
 
 /* individual image sizing to ensure correct display */
 
-.shipyard {
+.img-align {
   height: 100%;
   width: 100%;
-}
-
-.vera {
-  height: 100%;
-  width: 100%;
-}
-
-.delivery {
-  height: 100%;
-  width: 100%;
-}
-
-.installation {
-  height: 100%;
-  width: 100%;
-}
-
-div.img-dims {
-  width: 100%;
-  height: 100%;
 }
 
 div.img-txt {
   display: inline-block;
   text-align: left;
 }
-
-/*div.img-txt {
-  padding: 15px;
-  text-align: left;
-  line-height: 5px;
-}
-*/
 
 /* history 1940 page */
 
@@ -371,7 +344,6 @@ div.img-txt {
 .juliet-image {
   background: url("../img/1940/juliet.webp") no-repeat center center;
 }
-
 
 /* history 1947 page */
 
@@ -382,10 +354,9 @@ div.img-txt {
   background-size: cover;
 }
 
-#image-heading-1947 div{
+#image-heading-1947 div {
   width: 100%;
 }
-
 
 /* history 1951 page */
 
@@ -441,12 +412,12 @@ div.img-txt {
 }
 
 #rescue {
-  width: 100$;
+  width: 100%;
 }
 
 .rescue-images {
   width: fit-content;
-  margin:auto;
+  margin: auto;
 }
 
 .rescue-images p {
@@ -487,31 +458,6 @@ div.img-txt {
 }
 
 /* individual image sizing to ensure correct display */
-
-.exercise{
-  height: 100%;
-  width: 100%;
-}
-
-.portside {
-  height: 100%;
-  width: 100%;
-}
-
-.starboard {
-  height: 100%;
-  width: 100%;
-}
-
-.foreground {
-  height: 100%;
-  width: 100%;
-}
-
-.astern {
-  height: 100%;
-  width: 100%;
-}
 
 #coda div {
   margin-left: auto;
@@ -573,7 +519,6 @@ footer {
   width: 100%;
 }
 
-
 /* Feedback Section */
 
 .feedback-section {
@@ -616,8 +561,8 @@ footer {
 }
 
 /* place launch button on the bottom right */
-.feedback-form div { 
-  right:5%;
+.feedback-form div {
+  right: 5%;
   bottom: 5%;
   position: absolute;
 }
@@ -650,97 +595,100 @@ footer {
 }
 
 .bg-img-ref a {
-text-decoration: none;  
-color: #3a3a3a;
+  text-decoration: none;
+  color: #3a3a3a;
 }
 
 .bg-img-ref a:hover {
-  text-decoration: underline;  
-
+  text-decoration: underline;
 }
-
 
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-
   #intro {
-  width: 65%;
-  height: 1250px; 
-  margin: 0 auto;       
+    width: 65%;
+    height: 1250px;
+    margin: 0 auto;
   }
 
   #introduction {
-      padding: 30px 0;
-      margin: 0;
+    padding: 30px 0;
+    margin: 0;
   }
 
-  #left-intro, #right-intro {
-      width: 100%;
-      float: left;
-      padding: 0;
+  #left-intro,
+  #right-intro {
+    width: 100%;
+    float: left;
+    padding: 0;
   }
 
-  #left-intro-head, h2 {
+  #left-intro-head,
+  h2 {
     text-align: center;
   }
 
-  #right-intro-head, h2 {
+  #right-intro-head,
+  h2 {
     text-align: center;
   }
 
-  #left-intro-head, p {
+  #left-intro-head,
+  p {
     text-align: left;
   }
 
-  #right-intro-head, p {
+  #right-intro-head,
+  p {
     text-align: left;
   }
 
   #center-intro {
-      clear: both;
-      width: 100%;
-      float: left;
-      padding: 0;
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
   }
 
   hr {
-      display: none;
+    display: none;
   }
 
   #timeline-home > div {
-      width: 100%;
-      clear: both;
-      height: 150px;
-      padding: 0;
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
   }
-  
 }
-  
+
 /* For medium screens size from 950px wide and down */
 
 @media screen and (max-width: 960px) {
-
   #intro {
-      width: 90%;
-      height: 1150px; 
-      margin: 0 auto;       
-      }
-
-  .left-intro, .right-intro-head {
-      width: inherit;
+    width: 90%;
+    height: 1150px;
+    margin: 0 auto;
   }
 
-  .left-intro h2, .right-intro-head h2 {
-      width: 100%;
-      text-align: center;
+  .left-intro,
+  .right-intro-head {
+    width: inherit;
   }
 
-  .left-intro p, .right-intro-head p {
-      text-align: center;
-      padding: 0 20px;
+  .left-intro h2,
+  .right-intro-head h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-intro p,
+  .right-intro-head p {
+    text-align: center;
+    padding: 0 20px;
   }
 
   #circle-container {
@@ -751,113 +699,106 @@ color: #3a3a3a;
   .advert {
     padding-top: 30px;
   }
-
 }
 
 /* For medium screens size from 780px wide and down */
 
 @media screen and (max-width: 780px) {
+  #circle-container {
+    width: 250px;
+    height: 250px;
+  }
 
-#circle-container {
-  width: 250px;
-  height: 250px;
-}
+  #table table {
+    width: 500px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-#table table {
-  width: 500px;
-  padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .specs {
+    float: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
 
-.specs {
-  float: none;
-  margin-top: 0;
-  padding-top: 0;
-}
+  .advert {
+    float: none;
+    width: auto;
+  }
+  .advert-info {
+    margin-left: 10%;
+  }
 
-.advert{
-  float: none;
-  width: auto;
-}
-.advert-info {
-  margin-left: 10%;
-}
+  .specs-info {
+    width: 100%;
+  }
 
-.specs-info {
-  width: 100%;
-}
-
-#img-orig {
-  column-count: 1;
-}
-
+  #img-orig {
+    column-count: 1;
+  }
 }
 
 /* For medium screens size from 680px wide and down */
 
 @media screen and (max-width: 680px) {
+  .image-container {
+    column-count: 1;
+  }
 
-.image-container {
-  column-count: 1;
-}
+  #cover-text {
+    width: 80%;
+    left: 50px;
+  }
 
-#cover-text {
-  width: 80%;
-  left: 50px;
-}
-
-#menu {
-  clear: left;
-  float: left;
-  margin-left: 30px;       
-  margin-bottom: 20px;
-  line-height: 25px;
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
   }
 }
 
 /* For medium screens size from 480px wide and down */
 
 @media screen and (max-width: 480px) {
- 
-#cover-text {
-  height: 220px;
-  left: 10%
-}  
+  #cover-text {
+    height: 220px;
+    left: 10%;
+  }
 
-#table table {
-  width: 100%;
-  padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  #table table {
+    width: 100%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.advert-info {
-  margin-left: 0;
-  width: 100%;
-}
+  .advert-info {
+    margin-left: 0;
+    width: 100%;
+  }
 
-.feedback-form {
-  left: 10%;
-  margin: 50px 10% 0 0;
-}
+  .feedback-form {
+    left: 10%;
+    margin: 50px 10% 0 0;
+  }
 
-.rescue-images img {
-  width: 100%;
-}
-
+  .rescue-images img {
+    width: 100%;
+  }
 }
 
 /* For medium screens size from 300px wide and down */
 
 @media screen and (max-width: 300px) {
-  
   #cover-text {
     height: 280px;
-    left: 10%
-  }  
+    left: 10%;
+  }
 
   .timeline h2 {
-      font-size: revert;
+    font-size: revert;
   }
 }
