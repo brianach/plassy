@@ -323,7 +323,6 @@ td {
   height: fit-content;
   clear: both;
   column-count: 2;
-  column-gap: 0;
 }
 
 /* individual image sizing to ensure correct display */
@@ -354,11 +353,16 @@ div.img-dims {
 }
 
 div.img-txt {
-  padding: 15px;
+  display: inline-block;
   text-align: left;
-  line-height: 0;
 }
 
+/*div.img-txt {
+  padding: 15px;
+  text-align: left;
+  line-height: 5px;
+}
+*/
 
 /* history 1940 page */
 
@@ -401,26 +405,6 @@ div.img-txt {
 .rescue-image {
   background: url("../img/1960/rescue-color.webp") no-repeat center center;
 }
-
-/*main image*/
-/* #rescue-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-#rescue-image {
-  height: 600px;
-  width: 100%;
-  background: url("../img/1960/rescue-color.webp") no-repeat center center;
-  background-size: cover; 
-
-  /*animates zoom effect on loading page */
- /* animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: backwards;
-}*/
 
 #emblem-container {
   clear: both;
