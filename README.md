@@ -201,16 +201,19 @@ I tested the site using various browsers on the differnet devices.
 * [Lighthouse](https://developer.chrome.com/en/docs/lighthouse/) in Chrome Developer Tools was used to check performance. 
 
   <details><summary>Home</summary><img src="doc/perform/homepage.png"></details>
-  <details><summary>History</summary><img src="doc/perform/history.png"></details>
+  <details><summary>History</summary><img src="doc/perform/history-1.png"></details>
 
-      Performance will be improved here by reducing the size of the main graphic and setting explit width and size on image elements.
+      Performance was improved here by reducing the size of the main graphic and setting explit width and size on image elements. See difference beteen history-1 and history-2 pictures.
+
+  <details><summary>History</summary><img src="doc/perform/history-2.png"></details>
 
     <details><summary>History-1940</summary><img src="doc/perform/history-1940.png"></details>
     <details><summary>History-1947</summary><img src="doc/perform/history-1947.png"></details>
     <details><summary>History-1951</summary><img src="doc/perform/history-1951.png"></details>
-    <details><summary>History-1960</summary><img src="doc/perform/history-1960.png"></details>
+    <details><summary>History-1960</summary><img src="doc/perform/history-1960-1.png"></details>
 
-      This page has a large amount of images to support the information on the page. Performance will be improved here by reducing the size of the images and setting explit width and size on all image elements. 
+      This page has a large amount of images to support the information on the page. Performance was improved here by reducing the size of the images and setting explit width and size on all image elements. See before image above and result below.
+      <details><summary>History-1960</summary><img src="doc/perform/history-1960-2.png"></details>   
 
   <details><summary>Feedback</summary><img src="doc/perform/feedback.png"></details>
 
