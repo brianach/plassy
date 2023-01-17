@@ -147,6 +147,10 @@ I chose not to turn the timeline at the bottom of the home page into a navigatio
 
 [CSS](https://en.wikipedia.org/wiki/CSS) CSS for the design and some media
 
+[WAVE](https://wave.webaim.org/) WAVE Web Accessibility Evaluation
+
+
+
 <br><hr><br>
 
 ## <h1>Testing</h1><br>
@@ -155,10 +159,19 @@ I chose not to turn the timeline at the bottom of the home page into a navigatio
 
 ### <h2>Accessibility</h2>
 
-No errors were found running the website through the WAVE Accessibility Checker website. However alerts were generated for images where alt text was supplied which was the same as the image title or description. Hence all such alt text was removed from images.
-Redundant (self reffering menu) links were also removed from the three main pages where the relative page is the active page.
+No errors were found running the website through the WAVE Accessibility Checker website. 
 
-![Accessibility Result](doc/perform/accessibility.png)
+Redundant (self reffering menu) links were removed from the three main pages where the relative page is the active page. This doesn't stop the warning being generated on some WAVE reports.
+
+<details><summary>Home</summary><img src="doc/access/home-accessibilityy.png"></details>
+<details><summary>History</summary><img src="doc/access/history-accessibilityy.png"></details>
+<details><summary>History-1940</summary><img src="doc/access/history-1940-accessibilityy.png"></details>
+<details><summary>History-1947</summary><img src="doc/access/history-1947-accessibilityy.png"></details>
+<details><summary>History-1951</summary><img src="doc/access/history-1951-accessibilityy.png"></details>
+<details><summary>History-1960</summary><img src="doc/access/history-1960-accessibilityy.png"></details>
+<details><summary>Feedback</summary><img src="doc/access/feedback-accessibilityy.png"></details>
+
+<br>
 
 ### <h2>Performance</h2><br>
 
@@ -206,7 +219,7 @@ I tested the site using various browsers on the differnet devices.
 
       Performance was improved here by reducing the size of the main graphic and setting explit width and size on image elements. See difference beteen history-1 and history-2 pictures.
 
-  <details><summary>History performance tweak</summary><img src="doc/perform/history-2.png"></details>
+  <details><summary>History performance after tweak</summary><img src="doc/perform/history-2.png"></details>
 
     <details><summary>History-1940</summary><img src="doc/perform/history-1940.png"></details>
     <details><summary>History-1947</summary><img src="doc/perform/history-1947.png"></details>
@@ -214,7 +227,7 @@ I tested the site using various browsers on the differnet devices.
     <details><summary>History-1960</summary><img src="doc/perform/history-1960-1.png"></details>
 
       This page has a large amount of images to support the information on the page. Performance was improved here by reducing the size of the images and setting explit width and size on all image elements. See before image above and result below.
-    <details><summary>History-1960 performance tweak</summary><img src="doc/perform/history-1960-2.png"></details>   
+    <details><summary>History-1960 performance after tweak</summary><img src="doc/perform/history-1960-2.png"></details>   
 
   <details><summary>Feedback</summary><img src="doc/perform/feedback.png"></details>
 
