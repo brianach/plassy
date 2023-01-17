@@ -205,7 +205,7 @@ I tested the site using various browsers on the differnet devices.
 
       Performance was improved here by reducing the size of the main graphic and setting explit width and size on image elements. See difference beteen history-1 and history-2 pictures.
 
-  <details><summary>History</summary><img src="doc/perform/history-2.png"></details>
+  <details><summary>History performance tweak</summary><img src="doc/perform/history-2.png"></details>
 
     <details><summary>History-1940</summary><img src="doc/perform/history-1940.png"></details>
     <details><summary>History-1947</summary><img src="doc/perform/history-1947.png"></details>
@@ -213,7 +213,7 @@ I tested the site using various browsers on the differnet devices.
     <details><summary>History-1960</summary><img src="doc/perform/history-1960-1.png"></details>
 
       This page has a large amount of images to support the information on the page. Performance was improved here by reducing the size of the images and setting explit width and size on all image elements. See before image above and result below.
-      <details><summary>History-1960</summary><img src="doc/perform/history-1960-2.png"></details>   
+    <details><summary>History-1960 performance tweak</summary><img src="doc/perform/history-1960-2.png"></details>   
 
   <details><summary>Feedback</summary><img src="doc/perform/feedback.png"></details>
 
