@@ -156,6 +156,7 @@ I chose not to turn the timeline at the bottom of the home page into a navigatio
 ### <h2>Accessibility</h2>
 
 No errors were found running the website through the WAVE Accessibility Checker website. However alerts were generated for images where alt text was supplied which was the same as the image title or description. Hence all such alt text was removed from images.
+Redundant (self reffering menu) links were also removed from the three main pages where the relative page is the active page.
 
 ![Accessibility Result](doc/perform/accessibility.png)
 
