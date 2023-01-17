@@ -41,11 +41,11 @@
 
 ### <h2>Who am I?</h2><br>
 
-My name is Brían ó Cualáin and I am a native of Inisheer which is the smallest of the Aran Islands archipelago off the west coast of Ireland although I have been living in Ireland for the last 30 years. ( We islanders refer to the mainland as Ireland in the same way someone might refer to it as another country which culturally and linguistically if not indeed physically it almost certainly is. 😉) Inisheer's population has remained around the 300 mark since I grew up there and it continues to be an ever more popular tourist destination endowned as it is by both natural and manmade beauty and its location beside the world renowned Cliffs of Moher, Doolin, Lahinch and the Aran Islands themselves.
+My name is Brían ó Cualáin and I am a native of Inisheer which is the smallest of the Aran Islands archipelago off the west coast of Ireland although I have been living in Ireland for the last 30 years. ( We islanders refer to the mainland as Ireland in the same way someone might refer to it as another country which culturally and linguistically if not indeed physically it almost certainly is. 😉) Inisheer's population has remained around the 300 mark since I grew up there and it continues to be an ever more popular tourist destination endowned as it is by both natural and manmade beauty and due to its location beside the world renowned Cliffs of Moher, Doolin, Lahinch and the Aran Islands themselves.
 
 ### <h2>Why the Plassy?</h2><br>
 
-My father Máirtín ó Cualáin (Martin Folan) was a member of the onshore rescue unit and took part in the rescue of the Plassy crew. I myself have been fascinated with the Plassy since I was a child. It was a favouite spot in which to play hide and seek or just to explore from the time I first managed to climb up into it, itself a rite of passage of sorts when growing up on Inisheer. One of my scariest and proudest moments was walking accross the 4m iron girder in the engine room in order to climb down there to explore the dark recesses of the ship. The girder was barely 10cm wide and there was a drop of about 4m to the engine room floor which was strewn with debris and rusting metal, hence the mix of fear and pride. Of course it goes withouot saying that I wouldn't encourage anyone to do such a thing today and in fact it is even more dangerous than ever now given the state of corrosion of the plassy and the advanced structural damage caused over time by the incessant pounding of Atlantic storms.
+My father Máirtín ó Cualáin (Martin Folan) was a member of the onshore rescue unit and took part in the rescue of the Plassy crew. I myself have been fascinated with the Plassy since I was a child. It was a favouite spot in which to play hide and seek or just to explore from the time I first managed to climb up into it, itself a rite of passage of sorts when growing up on Inisheer. One of my scariest and proudest moments was walking accross the 4m iron girder in the engine room in order to climb down there to explore the dark recesses of the ship. The girder was barely 10cm wide and there was a drop of about 4m to the engine room floor which was strewn with debris and rusting metal, hence the mix of fear and pride. Of course it goes without saying that I wouldn't encourage anyone to do such a thing today and in fact it is even more dangerous than ever now given the state of corrosion of the plassy and the advanced structural damage caused over time by the incessant pounding of Atlantic storms.
 
 <br><hr><br>
 
@@ -217,7 +217,7 @@ I tested the site using various browsers on the differnet devices.
   <details><summary>Home</summary><img src="doc/perform/homepage.png"></details>
   <details><summary>History</summary><img src="doc/perform/history-1.png"></details>
 
-      Performance was improved here by reducing the size of the main graphic and setting explit width and size on image elements. See difference beteen history-1 and history-2 pictures.
+      Performance was improved here by reducing the size of the main graphic and setting explit width and size on image elements. See performance improvement from above to below.
 
   <details><summary>History performance after tweak</summary><img src="doc/perform/history-2.png"></details>
 
@@ -226,7 +226,7 @@ I tested the site using various browsers on the differnet devices.
     <details><summary>History-1951</summary><img src="doc/perform/history-1951.png"></details>
     <details><summary>History-1960</summary><img src="doc/perform/history-1960-1.png"></details>
 
-      This page has a large amount of images to support the information on the page. Performance was improved here by reducing the size of the images and setting explit width and size on all image elements. See before image above and result below.
+      This page has a large amount of images to support the information on the page. Performance was greatly improved here by reducing the size of the images and setting explit width and size on all image elements. See before image above and result below.
     <details><summary>History-1960 performance after tweak</summary><img src="doc/perform/history-1960-2.png"></details>   
 
   <details><summary>Feedback</summary><img src="doc/perform/feedback.png"></details>
@@ -243,13 +243,26 @@ The homepage provides a quick overview with intuite and easy to acces links to f
 
 ![Homepage](doc/design/home-layout.png)
 
+<br>
+
+### <h2>As a visitor I want to learn about the Plassy origins, history and current information</h2>
+
 The history page starts with the origins of the Plassy and presents a clickable timeline to bring the visitor deeper into the story. Each link on the timeline menubar presents a page of information related to the year selected and follows the same page style but substituting the main (hero) image with one which is relevant to the historical information presented.
 
 ![Timeline Menubar](doc/design/timeline-menubar.png)
 
+<br>
+
+### <h2>As a visitor I would like to be abel to respond or request more information</h2>
+
 The final feedback page provides the user with an opportunity to react to the site giving them the ability to submit some basic feedback, commentary or request for further information if they so wish.
 
 ![Feedback Story](doc/design/feedback-story.png)
+
+<br>
+
+
+### <h2>Test chart to ensure website works as expected</h2>
 
 All pages were tested with the visitor in mind in terms of accessiblity, presentation, responsiveness and performance. All links were tested to ensure functionality. Below is a simpe chart of the results.
 
@@ -257,6 +270,7 @@ All pages were tested with the visitor in mind in terms of accessiblity, present
 
 
 <br>
+<br><hr><br>
 
 
 ## <h1>Acknowledgements</h1>
