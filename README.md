@@ -27,6 +27,7 @@
   + [Wireframes](#wireframes)
   + [Languages and Technologies](#languages-and-technologies)
 - [Testing](#testing)
+  + [Accessibility](#accessibility)
   + [Performance](#performance)
   + [Validation](#validation)
   + [Reponsiveness](#responsiveness)
@@ -151,6 +152,12 @@ I chose not to turn the timeline at the bottom of the home page into a navigatio
 ## <h1>Testing</h1><br>
 
 <br>
+
+### <h2>Accessibility</h2>
+
+No errors were found running the website through the WAVE Accessibility Checker website
+
+![Accessibility Result](doc/perform/accessibility.png)
 
 ### <h2>Performance</h2><br>
 
