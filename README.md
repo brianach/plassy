@@ -235,6 +235,30 @@ I tested the site using various browsers on the differnet devices.
 
 ## <h1>User Story Testing</h1><br>
 
+I tested the user story as follows.
+
+### <h2>As a visitor I want to get information about the Plassy</h2>
+
+The homepage provides a quick overview with intuite and easy to acces links to further information.
+
+![Homepage](doc/design/home-layout.png)
+
+The history page starts with the origins of the Plassy and presents a clickable timeline to bring the visitor deeper into the story. Each link on the timeline menubar presents a page of information related to the year selected and follows the same page style but substituting the main (hero) image with one which is relevant to the historical information presented.
+
+![Timeline Menubar](doc/design/timeline-menubar.png)
+
+The final feedback page provides the user with an opportunity to react to the site giving them the ability to submit some basic feedback, commentary or request for further information if they so wish.
+
+![Feedback Story](doc/design/feedback-story.png)
+
+All pages were tested with the visitor in mind in terms of accessiblity, presentation, responsiveness and performance. All links were tested to ensure functionality. Below is a simpe chart of the results.
+
+![Test Chart](doc/perform/test-chart.png)
+
+
+<br>
+
+
 ## <h1>Acknowledgements</h1>
 
 Thanks to the following people who have supported me:
