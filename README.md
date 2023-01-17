@@ -163,13 +163,13 @@ No errors were found running the website through the WAVE Accessibility Checker 
 
 Redundant (self reffering menu) links were removed from the three main pages where the relative page is the active page. This doesn't stop the warning being generated on some WAVE reports.
 
-<details><summary>Home</summary><img src="doc/access/home-accessibilityy.png"></details>
-<details><summary>History</summary><img src="doc/access/history-accessibilityy.png"></details>
-<details><summary>History-1940</summary><img src="doc/access/history-1940-accessibilityy.png"></details>
-<details><summary>History-1947</summary><img src="doc/access/history-1947-accessibilityy.png"></details>
-<details><summary>History-1951</summary><img src="doc/access/history-1951-accessibilityy.png"></details>
-<details><summary>History-1960</summary><img src="doc/access/history-1960-accessibilityy.png"></details>
-<details><summary>Feedback</summary><img src="doc/access/feedback-accessibilityy.png"></details>
+<details><summary>Home</summary><img src="doc/access/home-accessibility.png"></details>
+<details><summary>History</summary><img src="doc/access/history-accessibility.png"></details>
+<details><summary>History-1940</summary><img src="doc/access/history-1940-accessibility.png"></details>
+<details><summary>History-1947</summary><img src="doc/access/history-1947-accessibility.png"></details>
+<details><summary>History-1951</summary><img src="doc/access/history-1951-accessibility.png"></details>
+<details><summary>History-1960</summary><img src="doc/access/history-1960-accessibility.png"></details>
+<details><summary>Feedback</summary><img src="doc/access/feedback-accessibility.png"></details>
 
 <br>
 
