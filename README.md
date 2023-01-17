@@ -282,6 +282,7 @@ Thanks to the following people who have supported me:
   + My wife Tricia
   + All the slackers on Code Institue
   + LWETB and Code Institute for the opportunity to do this
+  + Major kudos to my friend Rónán McCall (https://www.futures-photography.com/artists/ronan-mccall) for his help with restoring the rescue photography and scanning them from the originals for inclusion.
 
 <br>
 
