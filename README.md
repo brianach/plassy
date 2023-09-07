@@ -12,7 +12,8 @@
 <br>
 
 
-- [Plassy](#plassy)
+
+- [Plassy](https://brianach.github.io/plassy/index.html)
 - [Introduction](#introduction)
   + [Who am I?](#who-am-i)
   + [Why the Plassy?](#why-the-plassy)
